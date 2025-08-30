@@ -1,3 +1,5 @@
+import NavBar from "./components/navbar";
+
 const App = () => {
   return (
     <div>
@@ -16,7 +18,8 @@ const App = () => {
 
               {/* Navbar Section Start */}
 
-              <div className="flex items-center">
+              <NavBar />
+              {/* <div className="flex items-center">
                 <nav>
                   <ul className="flex">
                     <li className="text-white hover:text-orange-500 transition-all duration-300 mx-6">
@@ -56,7 +59,7 @@ const App = () => {
                 >
                   Contact Support
                 </button>
-              </div>
+              </div> */}
               {/* Navbar Section Start */}
             </div>
           </div>
